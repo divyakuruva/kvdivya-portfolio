@@ -7,7 +7,7 @@ import {
 import { skillGroups } from '../data/skills.js'
 import { projects } from '../data/projects.js'
 import { certificates } from '../data/certificates.js'
-import SocialLinks from './SocialLinks.jsx'
+import SocialLinks, { contactEmail } from './SocialLinks.jsx'
 
 function SectionHeading({ eyebrow, title, description }) {
   return (
@@ -204,7 +204,7 @@ export function Contact() {
     <section className="section-shell contact-section" id="contact">
       <div className="container contact-layout">
         <div className="contact-copy reveal"><SectionHeading eyebrow="START A CONVERSATION" title={<>Let's connect<span className="accent-text">.</span></>} description="Interested in learning, collaborating on a project, or sharing an opportunity? I’d be glad to hear from you." />
-          <div className="contact-details"><div><Mail size={17} /><span><small>EMAIL</small><b>Add your email address</b></span></div><div><BriefcaseBusiness size={17} /><span><small>LINKEDIN</small><b>Add your LinkedIn profile</b></span></div><div><Github size={17} /><span><small>GITHUB</small><b>Add your GitHub profile</b></span></div></div>
+          <div className="contact-details"><div><Mail size={17} /><span><small>EMAIL</small><b><a href={`mailto:${contactEmail}`}>{contactEmail}</a></b></span></div><div><BriefcaseBusiness size={17} /><span><small>LINKEDIN</small><b>Add your LinkedIn profile</b></span></div><div><Github size={17} /><span><small>GITHUB</small><b>Add your GitHub profile</b></span></div></div>
           <SocialLinks compact />
         </div>
         <form className="contact-form glass-card reveal" onSubmit={handleSubmit}>
