@@ -45,7 +45,7 @@ export function Hero({ role, onResume, resumeNotice }) {
         <div className="hero-copy reveal">
           <p className="availability"><span /> OPEN TO LEARNING & OPPORTUNITIES</p>
           <p className="hero-intro">Hello, I'm</p>
-          <h1>Kuruva Venkat <span>Divya</span></h1>
+          <h1>Kuruva Venkata <span>Divya</span></h1>
           <p className="hero-title">BTech CSE Student <i /> Aspiring Data Analyst</p>
           <p className="hero-summary">I’m a Computer Science and Engineering student interested in Data Analytics, technology, and continuous learning. I enjoy building practical projects and developing my technical and problem-solving skills.</p>
           <div className="role-line"><span className="role-mark" /> Currently exploring <strong className="typing-text">{displayedRole}</strong></div>
@@ -84,7 +84,7 @@ export function About() {
       <div className="container about-layout">
         <div><SectionHeading eyebrow="A LITTLE ABOUT ME" title={<>Curious mind.<br /><span className="accent-text">Steady progress.</span></>} /></div>
         <div className="about-copy reveal">
-          <p className="about-lead">I am Kuruva Venkat Divya, a third-year BTech Computer Science and Engineering student at Annamacharya Institute of Technology and Science, Tirupati.</p>
+          <p className="about-lead">I am Kuruva Venkata Divya, a third-year BTech Computer Science and Engineering student at Annamacharya Institute of Technology and Science, Tirupati.</p>
           <p>I am interested in Data Analytics and enjoy learning technologies that help solve practical problems. I bring good communication skills, a willingness to keep learning, and a growing foundation in technical and problem-solving skills.</p>
           <p>Right now, I’m focused on building understanding through coursework and hands-on projects, one useful skill at a time.</p>
           <div className="about-values"><span><span>01</span> Learn continuously</span><span><span>02</span> Build by doing</span><span><span>03</span> Think through problems</span></div>
